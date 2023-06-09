@@ -1,0 +1,7 @@
+.git
+Dop_materiali(jpg)
+Java_DZ
+Java_Lesson
+Java_Seminar
+output.txt
+README.md
