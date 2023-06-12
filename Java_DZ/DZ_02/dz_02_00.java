@@ -1,4 +1,4 @@
-package Java_DZ.dz_02;
+package Java_DZ.DZ_02;
 
 /*Дана строка sql-запроса "select * from students where ". 
 Сформируйте часть WHERE этого запроса, используя StringBuilder. 
