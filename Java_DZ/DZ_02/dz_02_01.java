@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.logging.*;
 
 /*Реализуйте алгоритм сортировки пузырьком числового массива, 
-результат после каждой итерации запишите в лог-файл.*/
+результат после каждой итерации запишите в лог-файл..*/
 
 import Java_Seminar.Seminar2.task2;
 public class dz_02_01 {
