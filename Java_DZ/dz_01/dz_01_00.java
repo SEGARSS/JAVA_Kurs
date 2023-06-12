@@ -1,4 +1,5 @@
-package Java_DZ;
+package Java_DZ.dz_01;
+
 import java.util.Scanner;
 
 public class dz_01_00 {
@@ -99,4 +100,3 @@ public class dz_01_00 {
         return result;
     }
 }
-
