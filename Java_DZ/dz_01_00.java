@@ -1,5 +1,6 @@
 package Java_DZ;
 import java.util.Scanner;
+
 public class dz_01_00 {
     public static void main(String[] args) {
         task0();
@@ -98,3 +99,4 @@ public class dz_01_00 {
         return result;
     }
 }
+
