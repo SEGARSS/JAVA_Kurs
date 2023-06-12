@@ -1,4 +1,4 @@
-package Java_DZ.DZ_02;
+package Java_DZ.dz_02;
 import java.io.IOException;
 import java.util.logging.*;
 
