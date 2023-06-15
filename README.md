@@ -68,7 +68,32 @@
 ![](Dop_materiali(jpg)/mas4.jpg)![](Dop_materiali(jpg)/mas5.jpg)![](Dop_materiali(jpg)/mas6.jpg)![](Dop_materiali(jpg)/mas7.jpg)![](Dop_materiali(jpg)/mas8.jpg)![](Dop_materiali(jpg)/mas9.jpg)![](Dop_materiali(jpg)/mas10.jpg)![](Dop_materiali(jpg)/mas11.jpg)![](Dop_materiali(jpg)/mas12.jpg)
 </details>
 
+* Lesson_03_02 - Листы.
 
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/list1.jpg)![](Dop_materiali(jpg)/list2.jpg)
+</details>
+
+* Lesson_03_03 - Коллекции. Функционал.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/fun1.jpg)![](Dop_materiali(jpg)/fun2.jpg)
+</details>
+
+* Lesson_03_04 - Итератор.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/it.jpg)
+</details>
+
+
+#
 # Описания раздела тем Java_Seminar
 ## Первый семминар
 * Seminar_01_00 - Решение задач
