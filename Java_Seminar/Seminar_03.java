@@ -7,7 +7,7 @@ public class Seminar_03 {
         //task0.StringTest();
         //task1.filler();
         //task2.planetsFreq();
-        //task3.ObjList();
-        task4.task4();
+        task3.ObjList();
+        //task4.task4();
     }
 }

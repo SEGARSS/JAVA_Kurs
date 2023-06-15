@@ -1,5 +1,5 @@
 package Lesson_02;
-
+//Работа с файловой системой.
 import java.io.File;
 
 public class Lesson_02_01 {
