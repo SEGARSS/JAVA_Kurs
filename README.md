@@ -98,7 +98,7 @@
 <details>
 <summary>LinkedList</summary>
 
-![Дополнительные материалы](Dop_materiali(jpg)/Llist1.jpg)
+![Дополнительные материалы](Dop_materiali(jpg)/Llisst1.jpg)
 </details>
 
 
