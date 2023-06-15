@@ -92,6 +92,15 @@
 ![Дополнительные материалы](Dop_materiali(jpg)/it.jpg)
 </details>
 
+#
+## Третья лекция
+
+<details>
+<summary>LinkedList</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/Llist1.jpg)
+</details>
+
 
 #
 # Описания раздела тем Java_Seminar
