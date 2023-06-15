@@ -1,0 +1,40 @@
+package Lesson_04;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+/*Object.*/
+public class Lesson_04_01 {
+    public static void main(String[] args) {
+        // prim1();
+        prim2();
+    }
+
+    private static void prim1() {
+        Queue<Integer> queue = new LinkedList<Integer>();
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        queue.add(4);
+        System.out.println(queue); // [1, 2, 3, 4]
+        int item = queue.remove();
+        System.out.println(queue); // [2, 3, 4]
+        queue.offer(2809);
+        item = queue.remove();
+        System.out.println(queue); // [3, 4, 2809]
+        item = queue.remove();
+        System.out.println(queue); // [4, 2809]
+        item = queue.poll();
+        System.out.println(queue); // [2809]
+    }
+
+    private static void prim2() {
+        Queue<Integer> queue = new LinkedList<Integer>();
+        queue.add(1);
+        int item = queue.remove();
+        queue.offer(2809);
+        item = queue.poll();
+        System.out.println(queue);
+    }
+    
+}

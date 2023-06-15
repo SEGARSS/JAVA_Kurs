@@ -85,7 +85,6 @@
 </details>
 
 * Lesson_03_04 - Итератор.
-
 <details>
 <summary> Дополнительные материалы.</summary>
 
@@ -93,14 +92,35 @@
 </details>
 
 #
-## Третья лекция
+## Четвёртая лекция
 
 <details>
 <summary>LinkedList</summary>
 
-![Дополнительные материалы](Dop_materiali(jpg)/Llisst1.jpg)
+![Дополнительные материалы](Dop_materiali(jpg)/Llisst1.jpg)![](Dop_materiali(jpg)/Llisst2.jpg)![](Dop_materiali(jpg)/Llisst3.jpg)![](Dop_materiali(jpg)/Llisst4.jpg)![](Dop_materiali(jpg)/Llisst5.jpg)![](Dop_materiali(jpg)/Llisst6.jpg)![](Dop_materiali(jpg)/Llisst7.jpg)![](Dop_materiali(jpg)/Llisst8.jpg)![](Dop_materiali(jpg)/Llisst9.jpg)![](Dop_materiali(jpg)/Llisst10.jpg)![](Dop_materiali(jpg)/Llisst11.jpg)![](Dop_materiali(jpg)/Llisst12.jpg)![](Dop_materiali(jpg)/Llisst13.jpg)![](Dop_materiali(jpg)/Llisst14.jpg)![](Dop_materiali(jpg)/Llisst15.jpg)
 </details>
 
+<details>
+<summary> Lesson_04_01 - Queue.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/q1.jpg)![](Dop_materiali(jpg)/q2.jpg)![](Dop_materiali(jpg)/q3.jpg)![](Dop_materiali(jpg)/q4.jpg)![](Dop_materiali(jpg)/q5.jpg)![](Dop_materiali(jpg)/q6.jpg)
+</details>
+
+<details>
+<summary> Lesson_04_02 - PriorityQueue.</summary>
+
+</details>
+
+<details>
+<summary> Lesson_04_03 - Deque – double ended queue.</summary>
+
+</details>
+
+<details>
+<summary> Lesson_04_04 - Stack.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/st.jpg)
+</details>
 
 #
 # Описания раздела тем Java_Seminar
