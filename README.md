@@ -56,6 +56,19 @@
 * Lesson_02_00 - Импорт.
 * Lesson_02_00 - Xml.
 
+#
+## Третья лекция
+* Lesson_03_00 - Object.
+* Lesson_03_01 - Массивы.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/mas1.jpg)![](Dop_materiali(jpg)/mas2.jpg)![](Dop_materiali(jpg)/mas3.jpg)
+![](Dop_materiali(jpg)/mas4.jpg)![](Dop_materiali(jpg)/mas5.jpg)![](Dop_materiali(jpg)/mas6.jpg)![](Dop_materiali(jpg)/mas7.jpg)![](Dop_materiali(jpg)/mas8.jpg)![](Dop_materiali(jpg)/mas9.jpg)![](Dop_materiali(jpg)/mas10.jpg)![](Dop_materiali(jpg)/mas11.jpg)![](Dop_materiali(jpg)/mas12.jpg)
+</details>
+
+
 # Описания раздела тем Java_Seminar
 ## Первый семминар
 * Seminar_01_00 - Решение задач
