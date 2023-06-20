@@ -44,7 +44,7 @@
 ![Дополнительные материалы](Dop_materiali(jpg)/str1.jpg)
 </details>
 
-* Lesson_02_00 - Работа с файловой системой.
+* Lesson_02_01 - Работа с файловой системой.
 
 <details>
 <summary> Дополнительные материалы.</summary>
@@ -52,9 +52,9 @@
 ![Дополнительные материалы](Dop_materiali(jpg)/fail1.jpg)
 </details>
 
-* Lesson_02_00 - Логирование.
-* Lesson_02_00 - Импорт.
-* Lesson_02_00 - Xml.
+* Lesson_02_02 - Логирование.
+* Lesson_02_03 - Импорт.
+* Lesson_02_04 - Xml.
 
 #
 ## Третья лекция
@@ -121,6 +121,37 @@
 
 ![Дополнительные материалы](Dop_materiali(jpg)/st.jpg)
 </details>
+
+#
+## Пятая лекция
+* Lesson_05_00 - HashMa.
+* Lesson_05_01 - HashMap. Важное дополнение.
+Работа с парами.
+* Lesson_05_02 - HashMap. Важное дополнение. Скорость.Как ускорить работу.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/hm1.jpg)![](Dop_materiali(jpg)/hm2.jpg)![](Dop_materiali(jpg)/hm3.jpg)![](Dop_materiali(jpg)/hm4.jpg)![](Dop_materiali(jpg)/hm5.jpg)![](Dop_materiali(jpg)/hm6.jpg)![](Dop_materiali(jpg)/hm7.jpg)![](Dop_materiali(jpg)/hm8.jpg)![](Dop_materiali(jpg)/hm9.jpg)![](Dop_materiali(jpg)/hm10.jpg)![](Dop_materiali(jpg)/hm11.jpg)![](Dop_materiali(jpg)/hm12.jpg)![](Dop_materiali(jpg)/hm13.jpg)
+</details>
+
+* Lesson_05_03 - TreeMap.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/tm1.jpg)![](Dop_materiali(jpg)/tm2.jpg)![](Dop_materiali(jpg)/tm3.jpg)!
+</details>
+
+* Lesson_05_04 - LinkedHashMap.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/lm1.jpg)
+</details>
+
+* Lesson_05_05 - HashTable.
 
 #
 # Описания раздела тем Java_Seminar
