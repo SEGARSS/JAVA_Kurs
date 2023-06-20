@@ -1,16 +1,30 @@
-package Java_Seminar.Seminar4;
+package Java_DZ.dz_04;
 
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class task1 {
+// **Текст задачи:**
+// Реализовать консольное приложение, которое:
 
+// 1. Принимает от пользователя строку вида text~num
+
+// 1. Нужно рассплитить строку по ~, сохранить text в связный список на позицию num.
+// 2. Если введено print~num, выводит строку из позиции num в связном списке и удаляет её из списка.
+
+// **Текст задачи:**
+// Реализовать консольное приложение, которое:
+
+// 1. Принимает от пользователя и “запоминает” строки.
+// 2. Если введено print, выводит строки так, чтобы последняя введенная была первой в списке, а первая - последней.
+// 3. Если введено reverse, вывести список в обратном порядке
+
+public class dz_04_00 {
     private static LinkedList<String> list = new LinkedList<>();
 
-    public static void run() {
+    public static void dz_04() {
         boolean getIteration = true;
         while (getIteration) {
-            String cmd = inputUser("Enter the command");
+            String cmd = inputUser("Enter the command ('exit' - to exit)");
             String[] cLine = cmd.split("~");
             switch (cLine[0].toUpperCase()) {
                 case "EXIT":
@@ -42,4 +56,3 @@ public class task1 {
         return scannerNumber.nextLine();
     }
 }
-
