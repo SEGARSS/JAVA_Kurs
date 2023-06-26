@@ -154,6 +154,57 @@
 * Lesson_05_05 - HashTable.
 
 #
+## Шестая лекция
+
+<details>
+<summary>Иерархия коллекций.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/set0.jpg)
+</details>
+
+#
+* Lesson_06_00 - HashSet.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/hset0.jpg)
+</details>
+
+* Lesson_06_01 - HashSet как синоним множества.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/hset1.jpg)
+</details>
+
+* Lesson_06_02 - TreeSet.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/tset1.jpg)![Дополнительные материалы](Dop_materiali(jpg)/tset2.jpg)
+</details>
+
+* Lesson_06_03 - LinkedHashSet.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/lset1.jpg)
+</details>
+
+* Lesson_06_04-05 - Введение в создание собственных типов.
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/vset1.jpg)![Дополнительные материалы](Dop_materiali(jpg)/vset2.jpg)
+</details>
+
+
+#
 # Описания раздела тем Java_Seminar
 ## Первый семминар
 * Seminar_01_00 - Решение задач
