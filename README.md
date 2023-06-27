@@ -203,6 +203,18 @@
 ![Дополнительные материалы](Dop_materiali(jpg)/vset1.jpg)![Дополнительные материалы](Dop_materiali(jpg)/vset2.jpg)
 </details>
 
+#
+## Седьмая лекция
+* ООП - Объектно ориентированное программирование
+
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/oop1.jpg)![Дополнительные материалы](Dop_materiali(jpg)/oop2.jpg)![Дополнительные материалы](Dop_materiali(jpg)/oop3.jpg)![Дополнительные материалы](Dop_materiali(jpg)/oop4.jpg)![Дополнительные материалы](Dop_materiali(jpg)/oop5.jpg)![Дополнительные материалы](Dop_materiali(jpg)/oop6.jpg)![Дополнительные материалы](Dop_materiali(jpg)/oop7.jpg)
+</details>
+
+* Lesson_07_00 - 07_06 Примеры от меньшего к большему.
+
 
 #
 # Описания раздела тем Java_Seminar
