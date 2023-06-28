@@ -36,7 +36,7 @@ public class Seminar_07 {
 
        
 
-        //System.out.println("Hello, World!");
+        
     }
 }
 
