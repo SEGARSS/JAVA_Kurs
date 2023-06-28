@@ -5,12 +5,21 @@ import java.util.List;
 
 
 import Java_DZ.dz_07.Domen.Bottle;
-import Java_DZ.dz_07.Domen.HotDrink;
+import Java_DZ.dz_07.Domen.HotDrink; // Добавили горячие напитки
 import Java_DZ.dz_07.Domen.Product;
 import Java_DZ.dz_07.Services.CoinDispenser;
 import Java_DZ.dz_07.Services.Display;
 import Java_DZ.dz_07.Services.Holder;
 import Java_DZ.dz_07.Services.VendingMachine;
+
+/*
+1. Создать наследника Product реализовать класс ГорячийНапиток(Hot Drink) 
+с дополнительным полем int температура.
+2. Для класса ГорячихНапитков(Hot Drink) 
+написать конструктор и переопределить метод toString()
+3. В main добавить в автомат несколько ГорячихНапитков(Hot Drink) 
+и воспроизвести логику заложенную в программе
+*/
 
 
 public class dz_zap_07 {
