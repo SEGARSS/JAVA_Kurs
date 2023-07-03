@@ -32,12 +32,5 @@ public class SpecialClient extends Actor{
       return this;
     }
 
-    // @Override
-    // public String getName() {
-    //     return name;
-    // }
-
-    // public int getIdVip() {
-    //     return idVip;
-    // }
+   
 }

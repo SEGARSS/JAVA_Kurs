@@ -10,7 +10,6 @@ import Java_Seminar.Seminar8.Interfaces.iActorBehaviuor;
 
 public class Seminar_08 {
     public static void main(String[] args) throws Exception {
-        //System.out.println("Hello, World!");
         Market magnit = new Market();
         iActorBehaviuor client1 = new OrdinaryClient("Boris");
         iActorBehaviuor client2 = new SpecialClient("prezident",1001);
