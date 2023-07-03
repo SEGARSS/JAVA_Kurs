@@ -2,6 +2,9 @@ package Java_DZ.dz_08.Classes;
 
 import Java_DZ.dz_08.Interfaces.iReturnOrder;
 
+/**
+ * Класс OrdinaryClient представляет обычного клиента и реализует интерфейс iActorBehaviuor.
+ */
 public class OrdinaryClient extends Actor implements iReturnOrder {
     public OrdinaryClient(String name) {
         super(name);

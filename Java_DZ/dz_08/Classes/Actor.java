@@ -2,6 +2,9 @@ package Java_DZ.dz_08.Classes;
 
 import Java_DZ.dz_08.Interfaces.iActorBehaviuor;
 
+/**
+ * Класс Actor представляет актера (клиента).
+ */
 public abstract class Actor implements iActorBehaviuor {
     protected String name;
     protected boolean isTakeOrder;

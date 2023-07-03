@@ -42,14 +42,17 @@
  */
 package Java_DZ;
 
+import Java_DZ.dz_08.Classes.Actor;
+import Java_DZ.dz_08.Classes.PromotionalClient;
 import Java_DZ.dz_08.Classes.Market;
 import Java_DZ.dz_08.Classes.OrdinaryClient;
 import Java_DZ.dz_08.Classes.PensionerClient;
 import Java_DZ.dz_08.Classes.SpecialClient;
 import Java_DZ.dz_08.Classes.TaxService;
 import Java_DZ.dz_08.Interfaces.iActorBehaviuor;
-
-
+import Java_DZ.dz_08.Interfaces.iMarketBehaviour;
+import Java_DZ.dz_08.Interfaces.iQueueBehaviour;
+import Java_DZ.dz_08.Interfaces.iReturnOrder;
 /**
  * Этот класс содержит метод `main`, который является точкой входа в программу.
  * Он создает экземпляр магазина, различных типов клиентов и налоговую службу.
