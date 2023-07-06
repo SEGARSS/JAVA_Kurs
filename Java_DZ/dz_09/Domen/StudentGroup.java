@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Класс, представляющий группу студентов.
  */
-public class StudentGroup implements Iterable<Student> {
+public class StudentGroup implements Iterable<Student>, Comparable<StudentGroup> {
     private List<Student> group;
     private Integer idGroup;
 
@@ -70,18 +70,16 @@ public class StudentGroup implements Iterable<Student> {
      */
     @Override
     public Iterator<Student> iterator() {
-        return new Iterator<Student>() {
-            private int counter;
+        return group.iterator();
+    }
 
-            @Override
-            public boolean hasNext() {
-                return counter < group.size();
-            }
-
-            @Override
-            public Student next() {
-                return group.get(counter++);
-            }
-        };
+    /**
+     * Сравнивает текущую группу студентов с другой группой студентов по количеству студентов в группе.
+     * @param o группа студентов для сравнения
+     * @return отрицательное число, если текущая группа меньше; 0, если группы равны; положительное число, если текущая группа больше
+     */
+    @Override
+    public int compareTo(StudentGroup o) {
+        return Integer.compare(group.size(), o.getGroup().size());
     }
 }
