@@ -230,7 +230,24 @@
 ![Дополнительные материалы](Dop_materiali(jpg)/int1.jpg)![Дополнительные материалы](Dop_materiali(jpg)/int2.jpg)![Дополнительные материалы](Dop_materiali(jpg)/int3.jpg)
 </details>
 Lesson_08_05 - Сложный пример!
- 
+
+#
+## Девятая лекция 
+* Lesson_09_00 - Iterator<E>
+* Lesson_09_01 - Iterable<E>
+* Lesson_09_02 - Comparator<E>
+* Lesson_09_03 - Comparable<E>
+* Lesson_09_04 - Comparable, equals, ==
+* Lesson_09_05 - foreach для своих типов
+<details>
+<summary> Дополнительные материалы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/l9_1.jpg)![Дополнительные материалы](Dop_materiali(jpg)/l9_2.jpg)![Дополнительные материалы](Dop_materiali(jpg)/l9_3.jpg)![Дополнительные материалы](Dop_materiali(jpg)/l9_4.jpg)
+</details>
+
+#
+## Деcятая лекция
+
 
 #
 # Описания раздела тем Java_Seminar
