@@ -215,6 +215,22 @@
 
 * Lesson_07_00 - 07_06 Примеры от меньшего к большему.
 
+#
+## Восьмая лекция
+<details>
+<summary> Lesson_08_00 - Абстракция.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/Abs1.jpg)![Дополнительные материалы](Dop_materiali(jpg)/Abs2.jpg)
+</details>
+
+<details>
+
+<summary> Lesson_08_01,02,03,04 - Интерфейсы.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/int1.jpg)![Дополнительные материалы](Dop_materiali(jpg)/int2.jpg)![Дополнительные материалы](Dop_materiali(jpg)/int3.jpg)
+</details>
+Lesson_08_05 - Сложный пример!
+ 
 
 #
 # Описания раздела тем Java_Seminar
