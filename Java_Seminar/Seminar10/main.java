@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -62,7 +61,5 @@ public class main {
         Emploee e1 = new Emploee("Федорович", 60, "разнорабочим");
         
         EmploeeController.paySalary(e1);
-       
-
     }
 }
