@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
 import Controllers.EmploeeController;
 import Domen.Emploee;
 import Domen.Person;
@@ -9,7 +8,6 @@ import Domen.PersonComparator;
 import Domen.Student;
 import Domen.StudentGroup;
 import Domen.Teacher;
-
 public class main {
     public static void main(String[] args) throws Exception {
 
