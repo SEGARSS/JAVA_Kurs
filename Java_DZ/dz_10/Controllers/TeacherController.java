@@ -1,14 +1,26 @@
 package Java_DZ.dz_10.Controllers;
 
-import Java_DZ.dz_10.Domen.Person;
-import Java_DZ.dz_10.Services.StudentService;
+import Java_DZ.dz_10.Domen.Teacher;
 
-public class TeacherController implements iPersonController<Person> {
-    private final StudentService dataService = new StudentService();
-
+/**
+ * Класс-контроллер для управления учителями.
+ */
+public class TeacherController implements iPersonController<Teacher> {
+    
+    /**
+     * Создает нового учителя с указанными именем, возрастом и степенью.
+     * @param firstName имя учителя
+     * @param age возраст учителя
+     */
     @Override
     public void create(String firstName, int age) {
-        dataService.create(firstName, age);
-        dataService.sortByFIOStdLst();
+
+        // В данном случае необходимо указать степень учителя, поэтому используйте перегруженный метод create
+        // или добавьте еще один параметр, указывающий степень учителя.
+        // Например:
+        // create(firstName, age, "PhD");
+        
+        System.out.println("Необходимо указать степень учителя.");
     }
+   
 }

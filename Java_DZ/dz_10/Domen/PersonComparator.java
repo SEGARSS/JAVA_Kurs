@@ -2,6 +2,10 @@ package Java_DZ.dz_10.Domen;
 
 import java.util.Comparator;
 
+/**
+ * Компаратор для сравнения объектов типа T, наследующих Person, по имени и возрасту.
+ * @param <T> тип объекта, наследующего Person
+ */
 public class PersonComparator<T extends Person> implements Comparator<T> {
     @Override
     public int compare(T o1, T o2) {
