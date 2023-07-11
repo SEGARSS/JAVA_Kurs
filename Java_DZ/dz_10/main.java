@@ -61,8 +61,16 @@ public class main {
         PersonComparator<Person> comP = new PersonComparator<>();
         comP.compare(s1, t2);
 
+        Emploee e1 = new Emploee("Федорович", 60, "разнорабочим");
+
+        EmploeeController.paySalary(e1);
+
         EmploeeService empService = new EmploeeService();
         empService.create("Иван", 30);
+        empService.create("Петр", 35);
+        empService.create("Анна", 28);
+        empService.create("Мария", 42);
+        empService.create("Алексей", 39);
 
         StudentService studentService = new StudentService();
         studentService.create("Петр", 20);
@@ -71,28 +79,33 @@ public class main {
         teacherService.create("Алексей", 40, "PhD");
         teacherService.create("Мария", 35, "MSc");
         teacherService.create("Андрей", 45, "PhD");
-        
+
         List<Person> teachers = teacherService.getAll();
         teacherService.sortByFIO();
-          
+
+        List<Emploee> emploees = empService.getAll();
+
         AverageAge<Student> averageAgeStudent = new AverageAge<>();
         double averageStudentAge = averageAgeStudent.calculateAverageAge(listStud);
 
         AverageAge<Person> averageAgeTeacher = new AverageAge<>();
         double averageTeacherAge = averageAgeTeacher.calculateAverageAge(teachers);
 
+        AverageAge<Emploee> averageAgeEmploee = new AverageAge<>();
+        double averageEmploeeAge = averageAgeEmploee.calculateAverageAge(emploees);
+
         System.out.println("Средний возраст студентов: " + averageStudentAge);
+        System.out.println("Средний возраст учителей: " + averageTeacherAge);
+        System.out.println("Средний возраст работников: " + averageEmploeeAge);
 
         System.out.println("Список учителей:");
         for (Person teacher : teachers) {
             System.out.println(teacher);
         }
 
-        System.out.println("Средний возраст учителей: " + averageTeacherAge);
-
-        Emploee e1 = new Emploee("Федорович", 60, "разнорабочим");
-        EmploeeController.paySalary(e1);
-
-        
+        System.out.println("Список работников:");
+        for (Emploee emploee : emploees) {
+            System.out.println(emploee);
+        }
     }
 }
