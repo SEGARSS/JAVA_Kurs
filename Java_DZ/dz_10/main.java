@@ -60,11 +60,7 @@ public class main {
 
         PersonComparator<Person> comP = new PersonComparator<>();
         comP.compare(s1, t2);
-
-        Emploee e1 = new Emploee("Федорович", 60, "разнорабочим");
-
-        EmploeeController.paySalary(e1);
-
+        
         EmploeeService empService = new EmploeeService();
         empService.create("Иван", 30);
         empService.create("Петр", 35);
@@ -95,17 +91,22 @@ public class main {
         double averageEmploeeAge = averageAgeEmploee.calculateAverageAge(emploees);
 
         System.out.println("Средний возраст студентов: " + averageStudentAge);
-        System.out.println("Средний возраст учителей: " + averageTeacherAge);
-        System.out.println("Средний возраст работников: " + averageEmploeeAge);
 
         System.out.println("Список учителей:");
         for (Person teacher : teachers) {
             System.out.println(teacher);
         }
 
+        System.out.println("Средний возраст учителей: " + averageTeacherAge);
+
         System.out.println("Список работников:");
         for (Emploee emploee : emploees) {
             System.out.println(emploee);
         }
+
+        System.out.println("Средний возраст работников: " + averageEmploeeAge);
+
+        Emploee e1 = new Emploee("Федорович", 60, "разнорабочим");
+        EmploeeController.paySalary(e1);
     }
 }
