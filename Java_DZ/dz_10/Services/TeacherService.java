@@ -1,19 +1,20 @@
 package Java_DZ.dz_10.Services;
 
-import Java_DZ.dz_10.Domen.PersonComparator;
+import Java_DZ.dz_10.Domen.Person;
 import Java_DZ.dz_10.Domen.Teacher;
+import Java_DZ.dz_10.Domen.PersonComparator;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TeacherService {
-    private List<Teacher> teachers;
+    private List<Person> teachers;
 
     public TeacherService() {
         this.teachers = new ArrayList<>();
     }
 
-    public List<Teacher> getAll() {
+    public List<Person> getAll() {
         return teachers;
     }
 
@@ -23,6 +24,6 @@ public class TeacherService {
     }
 
     public void sortByFIO() {
-        teachers.sort(new PersonComparator<Teacher>());
+        teachers.sort(new PersonComparator<>());
     }
 }

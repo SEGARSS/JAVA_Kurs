@@ -1,9 +1,8 @@
 package Java_DZ.dz_10.Services;
 
-import Java_DZ.dz_10.Domen.Emploee;
-
 import java.util.ArrayList;
 import java.util.List;
+import Java_DZ.dz_10.Domen.Emploee;
 
 public class EmploeeService implements iPersonService<Emploee> {
     private List<Emploee> emploees;
