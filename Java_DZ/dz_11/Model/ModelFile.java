@@ -8,10 +8,18 @@ import java.util.List;
 
 import Java_DZ.dz_11.Controller.iGetModel;
 
+/**
+ * Реализация интерфейса iGetModel для чтения и записи данных о студентах в файл.
+ */
 public class ModelFile implements iGetModel {
     private String fName;
     private List<Student> students = new ArrayList<>();
 
+    /**
+     * Конструктор объекта ModelFile с указанием имени файла.
+     *
+     * @param fName имя файла для чтения/записи данных о студентах
+     */
     public ModelFile(String fName) {
         this.fName = fName;
 
@@ -22,6 +30,11 @@ public class ModelFile implements iGetModel {
         }
     }
 
+    /**
+     * Получает список всех студентов из файла.
+     *
+     * @return список студентов
+     */
     @Override
     public List<Student> getAll() {
         if (students.size() == 0) {
@@ -43,6 +56,11 @@ public class ModelFile implements iGetModel {
 
     }
 
+    /**
+     * Сохраняет список студентов в файл.
+     *
+     * @param students список студентов для сохранения
+     */
     public void saveAllToFile(List<Student> students) {
         try (FileWriter fw = new FileWriter(fName, true)) {
             for (Student stud : students) {
@@ -56,6 +74,12 @@ public class ModelFile implements iGetModel {
         }
     }
 
+    /**
+     * Удаляет студента с указанным ID из списка студентов.
+     *
+     * @param id ID студента для удаления
+     * @return true, если студент успешно удален, false в противном случае
+     */
     @Override
     public boolean deleteStudent(long id) {
         boolean res = false;
@@ -70,5 +94,4 @@ public class ModelFile implements iGetModel {
         }
         return res;
     }
-
 }

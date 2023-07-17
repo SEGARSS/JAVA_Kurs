@@ -1,17 +1,14 @@
 package Java_DZ.dz_11.Controller;
 
 import java.util.List;
-import java.util.Scanner;
 
 import Java_DZ.dz_11.Model.Student;
-import Java_DZ.dz_11.View.ViewEng;
-import Java_DZ.dz_11.View.ViewRus;
 
 /**
- * Интерфейс iGetView представляет пользовательский интерфейс для отображения информации и взаимодействия с пользователем.
+ * Интерфейс iGetViewEng представляет пользовательский интерфейс на английском языке для отображения информации и взаимодействия с пользователем.
  */
-public interface iGetView {
-
+public interface iGetViewEng {
+    
     /**
      * Выводит список всех студентов.
      *
@@ -56,7 +53,7 @@ public interface iGetView {
      */
     Long getStudentIdToUpdate();
 
-     /**
+    /**
      * Возвращает сообщение-приглашение для ввода команды.
      *
      * @return сообщение-приглашение для ввода команды
@@ -77,7 +74,7 @@ public interface iGetView {
      */
     String msgOnExit();
 
-     /**
+    /**
      * Возвращает сообщение об удалении студента.
      *
      * @param id     идентификатор студента
@@ -93,7 +90,7 @@ public interface iGetView {
      */
     String msgOnBadCommand();
 
-     /**
+    /**
      * Возвращает слово "Студент".
      *
      * @return слово "Студент"
@@ -113,32 +110,4 @@ public interface iGetView {
      * @return слово "Возраст"
      */
     String wordAge();
-
-    /**
-     * Класс для выбора пользовательского интерфейса на основе выбранного языка.
-     */
-    class LangSelector {      
-    
-        /**
-         * Выбирает пользовательский интерфейс на основе выбранного языка.
-         *
-         * @return экземпляр интерфейса iGetView
-         */
-        public static iGetView select() {
-            Scanner iScan = new Scanner(System.in);
-            System.out.println("Choose the language / Выберите язык (1 - English, 2 - Русский): ");
-            int choice = Integer.parseInt(iScan.nextLine());
-    
-            if (choice == 1) {
-                return new ViewEng();
-            } else {
-                return new ViewRus();
-            }
-        }
-    
-    }
-
-    void printCommandList();
 }
-
-

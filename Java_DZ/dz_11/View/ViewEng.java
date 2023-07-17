@@ -6,86 +6,162 @@ import java.util.Scanner;
 import Java_DZ.dz_11.Controller.iGetView;
 import Java_DZ.dz_11.Model.Student;
 
+/**
+ * Класс ViewEng, представляющий пользовательский интерфейс на английском языке.
+ */
 public class ViewEng implements iGetView {
 
-    public void printAllSudents(List<Student> students) {
-        System.out.println("=======List of students=======>");
-        for (Student stud : students) {
-            System.out.println(wordStudent() + ": [" + wordName() + " = " + stud.getName() + ", " + wordAge() + " = "
-                    + stud.getAge() + ", ID = " + stud.getId() + "]");
+    /**
+     * Выводит список всех доступных команд.
+     */
+    public void printCommandList() {
+        System.out.println("Command List:");
+        System.out.println("READ - Read student information");
+        System.out.println("CREATE - Create a new student");
+        System.out.println("UPDATE - Update student information");
+        System.out.println("LIST - Display a list of all students");
+        System.out.println("DELETE - Delete a student");
+        System.out.println("EXIT - Exit the program");
+    }
+
+    /**
+     * Выводит список всех студентов.
+     *
+     * @param students список студентов
+     */
+    public void printAllStudents(List<Student> students) {
+        System.out.println("=======List of students=======");
+        for (Student student : students) {
+            System.out.println("Student: [Name = " + student.getName() + ", Age = " + student.getAge() + ", ID = " + student.getId() + "]");
         }
         System.out.println("==============================");
     }
 
-    @Override
+    /**
+     * Просит пользователя ввести команду.
+     *
+     * @param msg сообщение для пользователя
+     * @return введенная команда
+     */
     public String prompt(String msg) {
-        Scanner iScan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println(msg);
-        return iScan.nextLine();
+        return scanner.nextLine();
     }
 
-    @Override
+    /**
+     * Получает идентификатор студента для удаления.
+     *
+     * @return идентификатор студента для удаления
+     */
     public Long getStudentIdToDelete() {
-        long id = Integer.parseInt(prompt("Enter ID of the student to delete: "));
+        long id = Long.parseLong(prompt("Enter ID of the student to delete: "));
         return id;
     }
 
-    @Override
-    public void displayStudent(String msg, Student stud) {
-        System.out.println(msg + stud);
+    /**
+     * Выводит информацию о студенте.
+     *
+     * @param msg     сообщение для вывода
+     * @param student студент
+     */
+    public void displayStudent(String msg, Student student) {
+        System.out.println(msg + student);
     }
 
-    @Override
+    /**
+     * Считывает информацию о студенте.
+     *
+     * @return объект студента
+     */
     public Student readStudent() {
         return null;
     }
 
-    @Override
+    /**
+     * Получает идентификатор студента для обновления.
+     *
+     * @return идентификатор студента для обновления
+     */
     public Long getStudentIdToUpdate() {
-        long id = Integer.parseInt(prompt("Enter ID of the student to update: "));
+        long id = Long.parseLong(prompt("Enter ID of the student to update: "));
         return id;
     }
 
-    @Override
+    /**
+     * Возвращает сообщение приглашение для ввода команды.
+     *
+     * @return сообщение приглашение
+     */
     public String msgOnInvite() {
-        return "Enter new command: ";
+        return "Enter a new command: ";
     }
 
-    @Override
+    /**
+     * Возвращает сообщение о пустом списке студентов.
+     *
+     * @return сообщение о пустом списке студентов
+     */
     public String msgEmptyStudentList() {
         return "The list of students is empty!";
     }
 
-    @Override
+    /**
+     * Возвращает сообщение о выходе из программы.
+     *
+     * @return сообщение о выходе
+     */
     public String msgOnExit() {
         return "Exiting the application...";
     }
 
-    @Override
+    /**
+     * Возвращает сообщение об удалении студента.
+     *
+     * @param id     идентификатор студента
+     * @param result результат удаления
+     * @return сообщение об удалении студента
+     */
     public String msgOnDelete(long id, boolean result) {
         if (result) {
             return "Student with ID " + id + " has been successfully deleted!";
         } else {
-            return "Student with ID " + id + " has NOT been found in database!";
+            return "Student with ID " + id + " was not found in the database!";
         }
     }
 
-    @Override
+    /**
+     * Возвращает сообщение об ошибочной команде.
+     *
+     * @return сообщение об ошибочной команде
+     */
     public String msgOnBadCommand() {
-        return "There is no such command!";
+        return "Invalid command!";
     }
 
-    @Override
+    /**
+     * Возвращает слово "Student".
+     *
+     * @return слово "Student"
+     */
     public String wordStudent() {
         return "Student";
     }
 
-    @Override
+    /**
+     * Возвращает слово "Name".
+     *
+     * @return слово "Name"
+     */
     public String wordName() {
         return "Name";
     }
 
-    @Override
+    /**
+     * Возвращает слово "Age".
+     *
+     * @return слово "Age"
+     */
     public String wordAge() {
         return "Age";
     }
