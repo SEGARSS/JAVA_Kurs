@@ -274,6 +274,45 @@ Lesson_08_05 - Сложный пример!
 </details>
 
 #
+## Двенадцатая лекция.
+
+<details>
+<summary> ООП: SOLID.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/L12G.jpg)
+</details>
+
+<details>
+<summary> Реализация Ex001_1SRP - Ex001_2SRP.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/L12.1.jpg)
+</details>
+
+<details>
+<summary> Реализация Ex002_1OCP - Ex002_2OCP.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/L12.2.jpg)
+</details>
+
+<details>
+<summary> Реализация Ex003_1LSP - Ex003_2LSP.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/L12.3.jpg)
+</details>
+
+<details>
+<summary> Реализация Ex004_1ISP - Ex004_2ISP.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/L12.4.jpg)
+</details>
+
+<details>
+<summary> Реализация Ex005_1DIP - Ex005_2DIP.</summary>
+
+![Дополнительные материалы](Dop_materiali(jpg)/L12.5.jpg)
+</details>
+
+#
 # Описания раздела тем Java_Seminar
 ## Первый семминар
 * Seminar_01_00 - Решение задач
