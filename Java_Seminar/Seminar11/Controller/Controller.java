@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 package Controller;
+=======
+package Java_Seminar.Seminar11.Controller;
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
 
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
 import Model.ModelList;
 import Model.Student;
 import View.View;
+=======
+import Java_Seminar.Seminar11.Model.ModelList;
+import Java_Seminar.Seminar11.Model.Student;
+import Java_Seminar.Seminar11.View.View;
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
 
 public class Controller {
 

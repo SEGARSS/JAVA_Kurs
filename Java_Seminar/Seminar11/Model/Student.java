@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package Model;
+=======
+package Java_Seminar.Seminar11.Model;
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
 
 public class Student extends Person implements Comparable<Student> {
 
@@ -48,5 +52,8 @@ public class Student extends Person implements Comparable<Student> {
     
     
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e

@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 package View;
+=======
+package Java_Seminar.Seminar11.View;
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
 
 import java.util.List;
 import java.util.Scanner;
 
+<<<<<<< HEAD
 import Controller.iGetView;
 import Model.Student;
+=======
+import Java_Seminar.Seminar11.Controller.iGetView;
+import Java_Seminar.Seminar11.Model.Student;
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
 
 public class View implements iGetView {
 
@@ -55,4 +64,8 @@ public class View implements iGetView {
         throw new UnsupportedOperationException("Unimplemented method 'getStudentIdToUpdate'");
     }
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
