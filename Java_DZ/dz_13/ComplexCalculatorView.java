@@ -2,13 +2,25 @@ package Java_DZ.dz_13;
 
 import java.util.Scanner;
 
+/**
+ * Класс для представления пользовательского интерфейса калькулятора комплексных чисел.
+ * Позволяет пользователю выполнять арифметические операции с комплексными числами.
+ */
 public class ComplexCalculatorView {
     private ComplexCalculator calculator;
 
+    /**
+     * Конструктор класса ComplexCalculatorView.
+     *
+     * @param calculator Объект калькулятора комплексных чисел.
+     */
     public ComplexCalculatorView(ComplexCalculator calculator) {
         this.calculator = calculator;
     }
 
+    /**
+     * Метод запуска пользовательского интерфейса.
+     */
     public void run() {
         Scanner scanner = new Scanner(System.in);
 
@@ -32,7 +44,7 @@ public class ComplexCalculatorView {
 
             // Добавьте дополнительную логику для деления, если необходимо
 
-            String cmd = prompt("Вы хоте продолжить (Y/N)? ");
+            String cmd = prompt("Вы хотите продолжить (Y/N)? ");
             if (!cmd.equalsIgnoreCase("Y")) {
                 break;
             }
