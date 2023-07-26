@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+import java.util.ArrayList;
+import java.util.List;
+
+import Controller.Controller;
+import Controller.iGetModel;
+import Controller.iGetView;
+import Model.ModelFile;
+import Model.ModelList;
+import Model.Student;
+import View.View;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+       // System.out.println("Hello, World!");
+
+=======
 package Java_Seminar.Seminar11;
 
 import java.util.ArrayList;
@@ -14,6 +31,7 @@ import Java_Seminar.Seminar11.View.View;
 public class App {
     public static void main(String[] args) throws Exception {
        
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
        List<Student> students = new ArrayList<Student>();
        Student s1 = new Student("Сергей",  21, 101);
        Student s2 = new Student("Андрей",  22, 111);
@@ -28,7 +46,11 @@ public class App {
        students.add(s5);
        students.add(s6);
 
+<<<<<<< HEAD
+       ModelFile fModel = new ModelFile("D:\\Obuchenie\\JAVA_Kurs\\JAVA_Kurs\\Java_Seminar\\Seminar11\\StudentDB.txt");
+=======
        ModelFile fModel = new ModelFile("D:\\Obuchenie\\JAVA_Kurs\\Java_Seminar\\Seminar11\\StudentDB.txt");
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
        //fModel.saveAllStudentToFile(students);
 
        iGetModel modelFile = fModel;

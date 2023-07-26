@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+package Model;
+=======
 package Java_Seminar.Seminar11.Model;
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +11,11 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
+import Controller.iGetModel;
+=======
 import Java_Seminar.Seminar11.Controller.iGetModel;
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
 
 public class ModelFile  implements iGetModel {
     private String fileName;
@@ -64,4 +72,8 @@ public class ModelFile  implements iGetModel {
         }
     }
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 61358c10d04c212a76715c1de1717fc14fa6dd6e
