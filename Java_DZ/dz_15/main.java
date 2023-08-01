@@ -1,8 +1,5 @@
 package Java_DZ.dz_15;
 
-import Java_DZ.dz_11.Model.HashModel;
-import Java_DZ.dz_11.View.ViewEng;
-import Java_DZ.dz_11.View.ViewRus;
 import Java_DZ.dz_15.calculator.Calculator;
 import Java_DZ.dz_15.exceptions.DivisionByZeroException;
 import Java_DZ.dz_15.exceptions.InvalidInputException;
